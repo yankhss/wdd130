@@ -84,3 +84,76 @@ h2 {
 .redes-sociais img {
   width: 35px;
 }
+header {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+    background-color: #0b4f6c;
+    padding: 20px;
+}
+
+header img {
+    width: 120px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.historia {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.historia-conteudo {
+    display: grid;
+    grid-template-columns: 1fr 250px 1fr;
+    gap: 20px;
+    align-items: center;
+}
+
+.historia-conteudo img {
+    width: 100%;
+}
+
+.aventuras {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.aventuras figure {
+    flex: 1;
+}
+
+.aventuras img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.redes-sociais {
+    display: flex;
+    gap: 15px;
+}
+
+.redes-sociais img {
+    width: 35px;
+}
